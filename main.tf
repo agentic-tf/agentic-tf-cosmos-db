@@ -1,5 +1,3 @@
-}
-
 resource "azurerm_cosmosdb_account" "this" {
   name                = var.name
   location            = var.location
