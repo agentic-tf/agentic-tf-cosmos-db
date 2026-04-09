@@ -105,7 +105,7 @@ resource "azurerm_monitor_diagnostic_setting" "cosmos" {
     category = "ControlPlaneRequests"
   }
 
-  metric {
+  enabled_metric {
     category = "Requests"
   }
 }
